@@ -56,11 +56,10 @@ body {
       border: 2px solid black;
       height: 30%;
       width: 30%;
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../IhsanFace.jpg');
+      background: linear-gradient(rgba(0, 0, 132, 0.2), rgba(0, 17, 100, 0.3)), url('../IhsanFace.jpg');
       background-size: contain;
       background-position: center;
       color: white;
     }
   }
-
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vqjpgNSmfqFPfdXBsPyJfn/Ed095sv+Opw35sf1yWAo=",
+  "Hash": "ky7+/AJeG4n4i1HlWN7FuCZqHAQG40VRzlzACgwxBWI=",
   "Source": "IhsanWeb",
   "BasePath": "_content/IhsanWeb",
   "Mode": "Default",
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
       "SourceId": "IhsanWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/IhsanWeb",
-      "RelativePath": "css/site#[.{fingerprint=ytn0oodj93}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=eeaqvgb0eq}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "umuitj4tn5",
-      "Integrity": "llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=",
+      "Fingerprint": "p5kmxq1g69",
+      "Integrity": "jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ytn0oodj93",
-      "Integrity": "Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=",
+      "Fingerprint": "eeaqvgb0eq",
+      "Integrity": "JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2750,12 +2750,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001773049645"
+          "Quality": "0.001776198934"
         }
       ],
       "ResponseHeaders": [
@@ -2765,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "562"
         },
         {
           "Name": "ETag",
-          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2793,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+          "Value": "W/\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
         }
       ]
     },
@@ -2814,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1237"
+          "Value": "1232"
         },
         {
           "Name": "Content-Type",
@@ -2822,11 +2822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+          "Value": "\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2836,13 +2836,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2851,7 +2851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "562"
         },
         {
           "Name": "Content-Type",
@@ -2859,11 +2859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2881,18 +2881,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A="
+          "Value": "sha256-jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s="
         }
       ]
     },
     {
-      "Route": "css/site.ytn0oodj93.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "Route": "css/site.eeaqvgb0eq.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001773049645"
+          "Quality": "0.001776198934"
         }
       ],
       "ResponseHeaders": [
@@ -2902,15 +2902,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "562"
         },
         {
           "Name": "ETag",
-          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2930,13 +2930,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+          "Value": "W/\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytn0oodj93"
+          "Value": "eeaqvgb0eq"
         },
         {
           "Name": "label",
@@ -2944,12 +2944,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
         }
       ]
     },
     {
-      "Route": "css/site.ytn0oodj93.css",
+      "Route": "css/site.eeaqvgb0eq.css",
       "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2959,7 +2959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1237"
+          "Value": "1232"
         },
         {
           "Name": "Content-Type",
@@ -2967,11 +2967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+          "Value": "\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2981,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytn0oodj93"
+          "Value": "eeaqvgb0eq"
         },
         {
           "Name": "label",
@@ -2989,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
         }
       ]
     },
     {
-      "Route": "css/site.ytn0oodj93.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "Route": "css/site.eeaqvgb0eq.css.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3004,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "562"
         },
         {
           "Name": "Content-Type",
@@ -3012,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+          "Value": "Fri, 16 May 2025 01:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytn0oodj93"
+          "Value": "eeaqvgb0eq"
         },
         {
           "Name": "label",
@@ -3042,7 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A="
+          "Value": "sha256-jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s="
         }
       ]
     },

@@ -95,4 +95,4 @@ C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\refint\IhsanWeb.dll
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\IhsanWeb.pdb
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\IhsanWeb.genruntimeconfig.cache
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\ref\IhsanWeb.dll
-C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\compressed\xwzigk5abn-ytn0oodj93.gz
+C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\compressed\xwzigk5abn-eeaqvgb0eq.gz

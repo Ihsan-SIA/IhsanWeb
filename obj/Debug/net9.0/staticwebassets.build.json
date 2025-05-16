@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9VnxD6qP/HWw1Nq5+ZXo9HT78AC88JDgq1qnH1iAdtk=",
+  "Hash": "vqjpgNSmfqFPfdXBsPyJfn/Ed095sv+Opw35sf1yWAo=",
   "Source": "IhsanWeb",
   "BasePath": "_content/IhsanWeb",
   "Mode": "Default",
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-97aadlwl9g.gz",
+      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
       "SourceId": "IhsanWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/IhsanWeb",
-      "RelativePath": "css/site#[.{fingerprint=97aadlwl9g}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ytn0oodj93}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lfjg853juw",
-      "Integrity": "nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI=",
+      "Fingerprint": "umuitj4tn5",
+      "Integrity": "llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "97aadlwl9g",
-      "Integrity": "28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=",
+      "Fingerprint": "ytn0oodj93",
+      "Integrity": "Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\IhsanFace.jpg",
+      "SourceId": "IhsanWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\",
+      "BasePath": "_content/IhsanWeb",
+      "RelativePath": "IhsanFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bfud0z928",
+      "Integrity": "A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\IhsanFace.jpg"
     },
     {
       "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\js\\site.js",
@@ -2728,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.97aadlwl9g.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-97aadlwl9g.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002832861190"
+          "Quality": "0.001773049645"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "352"
+          "Value": "563"
         },
         {
           "Name": "ETag",
-          "Value": "\"nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI=\""
+          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2793,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\""
+          "Value": "W/\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "97aadlwl9g"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="
+          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
         }
       ]
     },
     {
-      "Route": "css/site.97aadlwl9g.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "726"
+          "Value": "1237"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2822,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\""
+          "Value": "\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ytn0oodj93.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001773049645"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "563"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ytn0oodj93"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ytn0oodj93.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "97aadlwl9g"
+          "Value": "ytn0oodj93"
         },
         {
           "Name": "label",
@@ -2831,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="
+          "Value": "sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH+BCuk7Otg7S0="
         }
       ]
     },
     {
-      "Route": "css/site.97aadlwl9g.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-97aadlwl9g.gz",
+      "Route": "css/site.ytn0oodj93.css.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-ytn0oodj93.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "352"
+          "Value": "563"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI=\""
+          "Value": "\"llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
+          "Value": "Fri, 16 May 2025 01:15:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "97aadlwl9g"
+          "Value": "ytn0oodj93"
         },
         {
           "Name": "label",
@@ -2884,144 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-97aadlwl9g.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002832861190"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "352"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "726"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-97aadlwl9g.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "352"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 00:40:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nw1oN5BSCxaJUK5G0AKlV/LZ34NLczlgSz2jtZizBLI="
+          "Value": "sha256-llRj1aW8FNUjf9laN3SK5+vBDnm5d5lwGCsGuTJtq9A="
         }
       ]
     },
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "IhsanFace.7bfud0z928.jpg",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\IhsanFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 11:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bfud0z928"
+        },
+        {
+          "Name": "label",
+          "Value": "IhsanFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4="
+        }
+      ]
+    },
+    {
+      "Route": "IhsanFace.jpg",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\IhsanFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 11:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4="
         }
       ]
     },

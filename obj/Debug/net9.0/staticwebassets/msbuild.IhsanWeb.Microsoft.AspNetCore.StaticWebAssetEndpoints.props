@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/IhsanWeb/css/site.97aadlwl9g.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"97aadlwl9g"},{"Name":"integrity","Value":"sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="},{"Name":"label","Value":"_content/IhsanWeb/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"726"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002228x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 00:40:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IhsanWeb/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-28x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"726"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002228x1zMpum6W/BGaLwMFTqJCjjiOfW102yq9iiN5i34g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 00:40:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH\u002BBCuk7Otg7S0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1237"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH\u002BBCuk7Otg7S0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 01:15:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IhsanWeb/css/site.ytn0oodj93.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ytn0oodj93"},{"Name":"integrity","Value":"sha256-Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH\u002BBCuk7Otg7S0="},{"Name":"label","Value":"_content/IhsanWeb/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1237"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Wn9h9QNyXJznPBLW8BxHDGERhiVfKLH\u002BBCuk7Otg7S0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 01:15:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IhsanWeb/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -23,6 +23,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 23:24:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IhsanWeb/IhsanFace.7bfud0z928.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\IhsanFace.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7bfud0z928"},{"Name":"integrity","Value":"sha256-A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4="},{"Name":"label","Value":"_content/IhsanWeb/IhsanFace.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466915"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 11:16:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IhsanWeb/IhsanFace.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\IhsanFace.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"466915"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022A0ZUQsLRAdAwKqRcfcefkRNvj/c526lHGFPklANtQC4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 11:16:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IhsanWeb/IhsanWeb.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\IhsanWeb.p3hkdfr2eg.bundle.scp.css'))</AssetFile>

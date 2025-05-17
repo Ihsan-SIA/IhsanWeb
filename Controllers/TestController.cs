@@ -3,12 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IhsanWeb.Controllers
 {
-    public class TestController1 : Controller
+    public class TestController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+       
         public IActionResult Test()
         {
             var testItems = new List<TestItems>()
@@ -18,6 +15,10 @@ namespace IhsanWeb.Controllers
                 new() {Id = 3, TestName = "Testing screen", TestStatus = "Not completed"}
             };
             return View(testItems);
+        }
+        public IActionResult TestBooking()
+        {
+            return View();
         }
     }
 }

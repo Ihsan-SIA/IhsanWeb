@@ -1,33 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Test Page";
 }
-@model IhsanWeb.Views.Home.TestModel
-@{
-}
+@model IEnumerable<IhsanWeb.Models.TestItems>
 
 
 
-<table class="table table-success">
+<table class="table table-danger">
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
+            <th>S/N</th>
+            <th>Test Name</th>
+            <th>Status of Test</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.ID</td>
-                <td>@item.Name</td>
-                <td>@item.Age</td>
+                <td>@item.Id</td>
+                <td>@item.TestName</td>
+                <td>@item.TestStatus</td>
             </tr>
         }
     </tbody>
 </table>
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>

@@ -8,6 +8,13 @@
 <form action="" method="post">
     <label asp-for="@Model.Name"></label>
     <input asp-for="Name">
+    <span asp-validation-for="Name"></span>
+    <br />
     <label asp-for="@Model.Price"></label>
+    <input asp-for ="Price"/>
+    <br />
     <label asp-for="@Model.Description"></label>
+    <br />
+    <input asp-for="Description"/>
+    <input type="submit" value="Create Product" />
 </form>

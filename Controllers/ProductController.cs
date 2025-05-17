@@ -13,12 +13,13 @@ namespace IhsanWeb.Controllers
                 new() {Name = "Redmi 12C", Description = "An android phone of the redmi brand", ID = 1, Price = 50_000 },
                 new() {ID = 2, Name = "iPhone 13", Description = "Major android competitor", Price = 100_000}
             };
-            return View();
+            _products.AddRange(products);
+            return View(products);
         }
-        
-        public ActionResult Create()
-        {
 
+        [HttpPost]
+        public ActionResult Create(CreateProductViewModel createViewModel)
+        {
             return View();
         }
     }

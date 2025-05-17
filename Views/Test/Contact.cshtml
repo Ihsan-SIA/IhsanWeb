@@ -1,7 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-@model IhsanWeb.Views.Test.ContactModel
+@model ContactModel
 
-<h1>Contact me ihsan.ahmadsodeko(at)gmail.com</h1>
+<h1>Contact me @Model.Email</h1>
 <p>Although, you can also contact me through 8187357029 (opay)</p>
+<p>but my real phone number is @Model.PhoneNumber</p>

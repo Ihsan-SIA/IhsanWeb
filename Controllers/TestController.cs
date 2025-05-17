@@ -19,7 +19,11 @@ namespace IhsanWeb.Controllers
 
         public IActionResult Contact()
         {
-            return View();
+            var contact = new ContactModel()
+            {
+                PhoneNumber = "+2348187357029", Email = "ihsan.ahmadsodeko@gmail.com"
+            };
+            return View(contact);
         }
 
         public IActionResult TestBooking()

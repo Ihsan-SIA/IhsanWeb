@@ -1,4 +1,5 @@
 ﻿using IhsanWeb.Models;
+using IhsanWeb.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IhsanWeb.Controllers

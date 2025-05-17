@@ -16,6 +16,12 @@ namespace IhsanWeb.Controllers
             };
             return View(testItems);
         }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         public IActionResult TestBooking()
         {
             return View();

@@ -96,4 +96,3 @@ C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\IhsanWeb.pdb
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\IhsanWeb.genruntimeconfig.cache
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\ref\IhsanWeb.dll
 C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\compressed\xwzigk5abn-9isok3ayh3.gz
-C:\Users\ihsan\Desktop\CodeIhsan\IhsanWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

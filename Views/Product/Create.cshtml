@@ -6,15 +6,15 @@
 <h1>@ViewData["Title"]</h1>
 
 <form action="" method="post">
-    <label asp-for="@Model.Name"></label>
+    <label asp-for="Name"></label>
     <input asp-for="Name">
     <span asp-validation-for="Name" class="text-danger"></span>
     <br />
-    <label asp-for="@Model.Price"></label>
+    <label asp-for="Price"></label>
     <input asp-for ="Price"/>
     <span asp-validation-for="Price" class="text-danger"></span>
     <br />
-    <label asp-for="@Model.Description"></label>
+    <label asp-for="Description"></label>
     <br />
     <input asp-for="Description"/>
     <input type="submit" value="Create Product" />

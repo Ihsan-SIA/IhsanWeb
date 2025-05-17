@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using IhsanWeb.Models;
+using IhsanWeb.ViewModel;
 
 namespace IhsanWeb.Controllers;
 
@@ -36,7 +37,14 @@ public class HomeController : Controller
     
     public IActionResult About()
     {
-        return View();
+        var product = new ProductDetailViewModel()
+        {
+            Id = 23,
+            Name = "Redmi",
+            Price = $"${50_000:F2}",
+            Description = "Xiaomi product"
+        };
+        return View(product);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

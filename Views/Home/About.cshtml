@@ -1,25 +1,16 @@
 @{
     ViewData["Title"] = "About page";
 }
-@model Views_Home_About
+@model IhsanWeb.ViewModel.ProductDetailViewModel
 
 <link rel="stylesheet" href="~/css/site.css" />
 <main class="about">
-    <section class="up">
-        <h1 style="justify-self: center;">This page is all about who Ihsan is on the IhsanWeb mate</h1>
-    </section>
-    <section class="down">
-        <div class="left">
-            <p>Just here for fun</p>
-            <p>So feel free to dial me at 019939393</p>
-        </div>
-        <div class="center">
-            <p> <b>Name: </b>Ihsan-Ahmad Olamide Sodeko</p>
-            <p><b>Phone no: </b>+2348187357029</p>
-            <p><b>School: </b>MGQS</p>
-        </div>
-        <div class="right">
-            
-        </div>
-    </section>
+    <h1>Name: @Model.Name</h1>
+    <p>Description: @Model.Description</p>
+    <p>Use this page to detail your site's privacy policy.</p>
+    @if (@Model.Id > 5)
+    {
+        <p>There are over 5 products registered on this page.</p>
+    }
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HkhrXH4Z/android-phones.jpg' border='0' alt='android-phones' /></a>
 </main>

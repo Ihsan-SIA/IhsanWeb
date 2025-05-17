@@ -1,6 +1,8 @@
-﻿@model IhsanWeb.Views.Test.TestBookingModel
+﻿@model IhsanWeb.Models.ContactModel
 @{
     ViewData["Title"] = "Test Booking";
 }
 
-<h1>Click <a href="#">here</a> to book a session (actually reload page) with us!</h1>
+<h1>Book us at @Model.Email to book a session (actually reload page) with us!</h1>
+<h1>Phone us at @Model.PhoneNumber</h1>
+<h1>Click @Model.Email<a href="#">here</a> to book a session (actually reload page) with us!</h1>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ky7+/AJeG4n4i1HlWN7FuCZqHAQG40VRzlzACgwxBWI=",
+  "Hash": "fKRAMZUOegCTP3LB0TcSYDtm3Rty8DmKldRy+/5bzeA=",
   "Source": "IhsanWeb",
   "BasePath": "_content/IhsanWeb",
   "Mode": "Default",
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
+      "Identity": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-9isok3ayh3.gz",
       "SourceId": "IhsanWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/IhsanWeb",
-      "RelativePath": "css/site#[.{fingerprint=eeaqvgb0eq}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=9isok3ayh3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "p5kmxq1g69",
-      "Integrity": "jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=",
+      "Fingerprint": "fueu9dsghq",
+      "Integrity": "WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eeaqvgb0eq",
-      "Integrity": "JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=",
+      "Fingerprint": "9isok3ayh3",
+      "Integrity": "UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
+      "Route": "css/site.9isok3ayh3.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-9isok3ayh3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001776198934"
+          "Quality": "0.001751313485"
         }
       ],
       "ResponseHeaders": [
@@ -2765,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "562"
+          "Value": "570"
         },
         {
           "Name": "ETag",
-          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
+          "Value": "\"WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2793,18 +2793,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
+          "Value": "W/\"UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "9isok3ayh3"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
+          "Value": "sha256-UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.9isok3ayh3.css",
       "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2814,7 +2822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1232"
+          "Value": "1235"
         },
         {
           "Name": "Content-Type",
@@ -2822,121 +2830,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
+          "Value": "\"UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "562"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.eeaqvgb0eq.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001776198934"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "562"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eeaqvgb0eq"
+          "Value": "9isok3ayh3"
         },
         {
           "Name": "label",
@@ -2944,13 +2852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
+          "Value": "sha256-UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o="
         }
       ]
     },
     {
-      "Route": "css/site.eeaqvgb0eq.css",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
+      "Route": "css/site.9isok3ayh3.css.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-9isok3ayh3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2959,7 +2867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1232"
+          "Value": "570"
         },
         {
           "Name": "Content-Type",
@@ -2967,56 +2875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y=\""
+          "Value": "\"WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eeaqvgb0eq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JibTqRL7EbJL28+p2UsRdMIjjTCVNpUVbhg+pNI51/Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.eeaqvgb0eq.css.gz",
-      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-eeaqvgb0eq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "562"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 01:21:32 GMT"
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +2897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eeaqvgb0eq"
+          "Value": "9isok3ayh3"
         },
         {
           "Name": "label",
@@ -3042,7 +2905,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jYjvZJsGs6FO/OErq01u14aYOM52wJ1Y1aWLnwsmH0s="
+          "Value": "sha256-WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-9isok3ayh3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001751313485"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "570"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUaqj1kuuzAMMp+wRbhp63bvhI0wnzGG+ZlojbflG2o="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\ihsan\\Desktop\\CodeIhsan\\IhsanWeb\\obj\\Debug\\net9.0\\compressed\\xwzigk5abn-9isok3ayh3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 01:35:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZw2SU66JR72fRJEcL263YBsjDo9gb2E8pSGi0hvDew="
         }
       ]
     },

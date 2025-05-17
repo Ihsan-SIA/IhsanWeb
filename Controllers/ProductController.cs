@@ -25,8 +25,6 @@ namespace IhsanWeb.Controllers
 
         public ActionResult Create(CreateProductViewModel viewModel)
         {
-            var product = _productRepository.GetAll();
-            if(viewModel)
             if (ModelState.IsValid)
             {
                 var product = new Product()

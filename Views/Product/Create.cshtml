@@ -1,4 +1,4 @@
-﻿@model CreateProductViewModel
+﻿@model IhsanWeb.ViewModel.CreateProductViewModel
 @{
     ViewData["Title"] = "Create Product";
 }
@@ -12,7 +12,7 @@
     <br />
     <label asp-for="Price"></label>
     <input asp-for ="Price"/>
-    <span asp-validation-for="Price" class="text-danger"></span>
+    <span asp-validation-for="Price" class="bg-dark"></span>
     <br />
     <label asp-for="Description"></label>
     <br />

@@ -1,4 +1,5 @@
 ﻿using IhsanWeb.Models;
+using IhsanWeb.Repository;
 using IhsanWeb.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,38 +7,42 @@ namespace IhsanWeb.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly List<Product> _products = [];
+        private readonly IProductRepository _productRepository;
+        public ProductController(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
         public IActionResult Index()
         {
-            var products = new List<Product>()
-            {
-                new() {Name = "Redmi 12C", Description = "An android phone of the redmi brand", ID = 1, Price = 50_000 },
-                new() {ID = 2, Name = "iPhone 13", Description = "Major android competitor", Price = 100_000}
-            };
-            return View(products);
+            var product = _productRepository.GetAll();
+            return View(product);
         }
-
-        [HttpPost]
 
         public ActionResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public ActionResult Create(CreateProductViewModel viewModel)
         {
+            var product = _productRepository.GetByName(viewModel.Name);
+            if (product is not null)
+            {
+                ViewBag.ErrorMessage = "Product already exists!";
+                return View();
+            }
             if (ModelState.IsValid)
             {
-                var product = new Product()
-                {
-                    ID = _products.Count + 1,
-                    Name = viewModel.Name,
-                    Price = viewModel.Price,
-                    Description = viewModel.Description
-                };
-                _products.Add(product);
+                _productRepository.Create(viewModel);
+                return Redirect("Index");
             }
-            return Redirect("Index");
+            return View();
+        }
+        public ActionResult Detail(int id)
+        {
+            var products = _productRepository.GetById(id);
+            return View(products);
         }
     }
 }

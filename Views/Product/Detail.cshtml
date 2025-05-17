@@ -1,0 +1,37 @@
+﻿@page
+@model IhsanWeb.ViewModel.ProductViewModel
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<a asp-action="Detail">Create new product</a>
+@if (Model.Count > 0)
+{
+    <h4>List of Products</h4>
+    <table class="table table-group-divider">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        @foreach (var product in Model)
+        {
+            <tbody>
+                <tr>
+                    <td>@product.ID</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.Description</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+}
+else
+{
+    <h5>Sorry, there are no products on this page yet.</h5>
+}

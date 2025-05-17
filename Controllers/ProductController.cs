@@ -8,25 +8,17 @@ namespace IhsanWeb.Controllers
         private readonly List<Product> _products = [];
         public IActionResult Index()
         {
+            var products = new List<Product>()
+            {
+                new() {Name = "Redmi 12C", Description = "An android phone of the redmi brand", ID = 1, Price = 50_000 },
+                new() {ID = 2, Name = "iPhone 13", Description = "Major android competitor", Price = 100_000}
+            };
             return View();
         }
-        public IActionResult Create()
+        
+        public ActionResult Create()
         {
-            return View(_products);
-        }
 
-        public IActionResult Read()
-        {
-            return View();
-        }
-
-        public IActionResult Update()
-        {
-            return View();
-        }
-
-        public IActionResult Delete()
-        {
             return View();
         }
     }

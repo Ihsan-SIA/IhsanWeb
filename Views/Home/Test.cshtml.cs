@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace IhsanWeb.Views.Test
+namespace IhsanWeb.Views.Home
 {
-    public class TestBookingModel : PageModel
+    public class TestModel : PageModel
     {
         public void OnGet()
         {

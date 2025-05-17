@@ -24,12 +24,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Home/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Home/TestBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0Qm9va2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Product/Create.cshtml]
@@ -60,16 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Test/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxDb250YWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Test/Test.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Test/TestBooking.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0Qm9va2luZy5jc2h0bWw=
+[C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/Test/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ihsan/Desktop/CodeIhsan/IhsanWeb/Views/_ViewImports.cshtml]

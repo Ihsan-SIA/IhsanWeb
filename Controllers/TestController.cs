@@ -5,29 +5,16 @@ namespace IhsanWeb.Controllers
 {
     public class TestController : Controller
     {
-       
-        public IActionResult Test()
+       private readonly ILogger<TestController> _logger;
+        public TestController(ILogger<TestController> logger)
         {
-            var testItems = new List<TestItems>()
-            {
-                new() {Id = 1, TestName = "Testing mic", TestStatus = "Completed" },
-                new() {Id = 2, TestName = "Testing camera", TestStatus = "Completed"},
-                new() {Id = 3, TestName = "Testing screen", TestStatus = "Not completed"}
-            };
-            return View(testItems);
+            _logger = logger;
         }
-
-        public IActionResult Contact()
+        public IActionResult Index()
         {
-            var contact = new ContactModel()
-            {
-                PhoneNumber = "+2348187357029", Email = "ihsan.ahmadsodeko@gmail.com"
-            };
-            
-            return View(contact);
+            return View();
         }
-
-        public IActionResult TestBooking()
+        public IActionResult Booking()
         {
             return View();
         }

@@ -1,7 +1,6 @@
-﻿@page
-@model IhsanWeb.ViewModel.ProductViewModel
+﻿@model IhsanWeb.ViewModel.ProductViewModel
 @{
-    ViewData["Title"] = "Product Details";
+    ViewData["Title"] = $"{Model.Name}'s Details";
 }
 
 <a asp-action="Detail">Create new product</a>
@@ -22,7 +21,7 @@
         {
             <tbody>
                 <tr>
-                    <td>@product.ID</td>
+                    <td>@product.Id</td>
                     <td>@product.Name</td>
                     <td>@product.Price</td>
                     <td>@product.Description</td>

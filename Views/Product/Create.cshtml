@@ -1,6 +1,13 @@
-﻿@model IhsanWeb.Models.CreateProductViewModel
+﻿@model CreateProductViewModel
 @{
     ViewData["Title"] = "Create Product";
 }
 
 <h1>@ViewData["Title"]</h1>
+
+<form action="" method="post">
+    <label asp-for="@Model.Name"></label>
+    <input asp-for="Name">
+    <label asp-for="@Model.Price"></label>
+    <label asp-for="@Model.Description"></label>
+</form>

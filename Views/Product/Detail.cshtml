@@ -1,4 +1,4 @@
-﻿@model IhsanWeb.ViewModel.ProductDetailViewModel
+﻿@model IhsanWeb.ViewModel.ProductViewModel
 @{
     ViewData["Title"] = $"{Model.Name}'s Details";
 }
@@ -6,5 +6,5 @@
 <div class="row">
     <h1>@Model.Name</h1>
     <p>Price: <span class="badge text-bg--info">@Model.Price</span></p>
-    <p>Model.Description</p>
+    <p>@Model.Description</p>
 </div>

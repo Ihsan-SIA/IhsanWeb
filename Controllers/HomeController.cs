@@ -16,14 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var products = new List<Product>()
-        {
-            new() {ID = 1, Name = "James", Age = 10},
-            new() {ID = 2, Name = "Jessica", Age = 15},
-            new() {ID = 3, Name = "Kakanga", Age = 22},
-            new() {ID = 4, Name = "Kulusevski", Age = 33}
-        };
-        return View(products);
+        return View();
     }
 
     public IActionResult Privacy()
@@ -37,11 +30,11 @@ public class HomeController : Controller
     
     public IActionResult About()
     {
-        var product = new ProductDetailViewModel()
+        var product = new Product()
         {
-            Id = 23,
+            ID = 23,
             Name = "Redmi",
-            Price = $"${50_000:F2}",
+            Price = 50_000,
             Description = "Xiaomi product"
         };
         return View(product);
@@ -54,11 +47,11 @@ public class HomeController : Controller
     }
     public IActionResult Test()
     {
-        var testItems = new List<TestItems>()
+        var testItems = new List<ProductViewModel>()
             {
-                new() {Id = 1, TestName = "Testing mic", TestStatus = "Completed" },
-                new() {Id = 2, TestName = "Testing camera", TestStatus = "Completed"},
-                new() {Id = 3, TestName = "Testing screen", TestStatus = "Not completed"}
+                new() {Id = 1, Name = "Testing mic", Description = "Completed" },
+                new() {Id = 2, Name = "Testing camera", Description = "Completed"},
+                new() {Id = 3, Name = "Testing screen", Description = "Not completed"}
             };
         return View(testItems);
     }

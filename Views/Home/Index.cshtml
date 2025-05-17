@@ -4,27 +4,6 @@
 
 @model IEnumerable<IhsanWeb.Models.Product>;
 
-
-<table class="table table-success">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.ID</td>
-                <td>@item.Name</td>
-                <td>@item.Age</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
 <div class="text-center">
     <h1 class="display-4">Welcome to Ihsan Web App</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>

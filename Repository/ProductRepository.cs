@@ -15,7 +15,7 @@ namespace IhsanWeb.Repository
                 ID = productCount,
                 Name = viewModel.Name,
                 Price = viewModel.Price,
-                Description = viewModel.Description
+                Description = viewModel.Description ?? "Not available"
             };
             _products.Add(product);
         }
@@ -26,7 +26,8 @@ namespace IhsanWeb.Repository
                 .Select(x => new ProductViewModel{
                     Id = x.ID,
                     Name = x.Name,
-                    Price = $"${x.Price:F2}"
+                    Price = $"${x.Price:F2}",
+                    Description = x.Description ?? "Not available"
                 })
                 .ToList();
         }

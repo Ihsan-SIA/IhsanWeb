@@ -1,13 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Test";
 }
-@model List<TestItems>
+@model List<IhsanWeb.ViewModel.ProductViewModel>
 
 <table class="table table-info">
     <thead>
         <tr>
             <th>S/N</th>
-            <th>Test Name</th>
+            <th>Product Name</th>
             <th>Status of Test</th>
         </tr>
     </thead>
@@ -16,8 +16,8 @@
         {
             <tr>
                 <td>@item.Id</td>
-                <td>@item.TestName</td>
-                <td>@item.TestStatus</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
             </tr>
         }
     </tbody>

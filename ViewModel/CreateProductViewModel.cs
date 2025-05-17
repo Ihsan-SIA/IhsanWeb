@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace IhsanWeb.Models
+namespace IhsanWeb.ViewModel
 {
     public class CreateProductViewModel
     {
-        public int ID {  get; set; }
+        public int ID { get; set; }
         [Required(ErrorMessage = "Awfar relax o! Write name joor")]
-        public string Name {  get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         [Required]
         public string Description { get; set; } = string.Empty;
         [StringLength(200)]
-        public decimal Price {  get; set; }
+        public decimal Price { get; set; }
     }
 }

@@ -9,9 +9,9 @@
 {
     <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
 }
-<form action="" method="put">
+<form asp-action="Update" asp-controller="Product">
     <label asp-for="Name"></label>
-    <input asp-for="Name">
+    <input type="hidden" method="put" value="@Model.Name">
     <span asp-validation-for="Name" class="text-bg-warning"></span>
     <br />
 

@@ -20,6 +20,7 @@ namespace IhsanWeb.Repository
             _products.Add(product);
         }
 
+        public void Update
         public List<ProductViewModel>? GetAll()
         {
             return _products

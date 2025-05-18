@@ -47,11 +47,11 @@ public class HomeController : Controller
     }
     public IActionResult Test()
     {
-        var testItems = new List<ProductViewModel>()
+        var testItems = new List<TestItems>()
             {
-                new() {Id = 1, Name = "Testing mic", Description = "Completed" },
-                new() {Id = 2, Name = "Testing camera", Description = "Completed"},
-                new() {Id = 3, Name = "Testing screen", Description = "Not completed"}
+                new() {Id = 1, TestName = "Testing phone mic", TestStatus= "Completed" },
+                new() {Id = 2, TestName = "Testing phone camera", TestStatus= "Completed"},
+                new() {Id = 3, TestName = "Testing phone screen", TestStatus = "Not completed"}
             };
         return View(testItems);
     }

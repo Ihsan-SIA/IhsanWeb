@@ -44,5 +44,19 @@ namespace IhsanWeb.Controllers
             var products = _productRepository.GetById(id);
             return View(products);
         }
+        public ActionResult Update(string name)
+        {
+            var products = _productRepository.GetByName(name);
+            if (products is null)
+            {
+                ViewBag.ErrorMessage = "Sorry product does not exist in records, try checking your spelling, or the product might just not be available.";
+                return View();
+            }
+            if (ModelState.IsValid)
+            {
+                
+            }
+            return View();
+        }
     }
 }

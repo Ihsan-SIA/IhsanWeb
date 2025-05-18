@@ -8,5 +8,6 @@ namespace IhsanWeb.Repository
         List<ProductViewModel>? GetAll();
         ProductViewModel? GetById(int id);
         ProductViewModel? GetByName(string name);
+        ProductViewModel? Update(ProductViewModel viewModel);
     }
 }

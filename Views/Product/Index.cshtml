@@ -5,7 +5,7 @@
 
 <h4>@ViewData["Title"]</h4>
 <a asp-action="Create" class="btn btn-primary">Create new product</a>
-<a asp-action="Create" class="btn btn-primary">Update existing product</a>
+<a asp-action="Update" class="btn btn-primary">Update existing product</a>
 <hr>
 
 @if (Model.Count>0)
@@ -17,6 +17,7 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Description</th>
+                <th>Action</th>
             </tr>
         </thead>
 
@@ -28,6 +29,10 @@
                     <td>@product.Name</td>
                     <td>@product.Price</td>
                     <td><a class="btn btn-link" asp-action="Detail" asp-route-id="@product.Id">Detail</a></td>
+                    <td>
+                        <a asp-action="Update" class="btn btn-primary">Update</a>
+                        <a asp-action="Delete" class="btn btn-primary">Delete</a>
+                    </td>
                 </tr>
             </tbody>
         }

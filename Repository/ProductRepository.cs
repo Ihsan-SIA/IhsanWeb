@@ -20,9 +20,9 @@ namespace IhsanWeb.Repository
             _products.Add(product);
         }
 
-        public void Update(UpdateProductViewModel viewModel, string name)
+        public void Update(UpdateProductViewModel viewModel)
         {
-            var product = _products.FirstOrDefault(x => x.Name == name);
+            var product = _products.FirstOrDefault(x => x.Name == viewModel.Name);
             if (product is null)
             {
                 return;

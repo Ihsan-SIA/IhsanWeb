@@ -45,10 +45,10 @@ namespace IhsanWeb.Controllers
             return View(products);
         }
 
-        [HttpGet]
-        public ActionResult Update(UpdateProductViewModel viewModel, string name)
+        [HttpPost]
+        public ActionResult Update(UpdateProductViewModel viewModel)
         {
-            var products = _productRepository.GetByName(name);
+            var products = _productRepository.GetByName;
             if (products is null)
             {
                 ViewBag.ErrorMessage = "Sorry product does not exist in records, try checking your spelling, or the product might just not be available.";
@@ -56,7 +56,7 @@ namespace IhsanWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _productRepository.Update(viewModel, name);
+                _productRepository.Update(viewModel);
                 return Redirect("Index");
             }
             return View(viewModel);

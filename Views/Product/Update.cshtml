@@ -5,24 +5,8 @@
 
 <h1>@ViewData["Title"]</h1>
 
-@if (ViewBag.ErrorMessage !=null)
-{
-    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
-}
-<form asp-action="Update" asp-controller="Product">
-    <label asp-for="Name"></label>
-    <input type="hidden" method="put" value="@Model.Name">
-    <span asp-validation-for="Name" class="text-bg-warning"></span>
-    <br />
-
-    <label asp-for="Price"></label>
-    <input asp-for ="Price"/>
-    <span asp-validation-for="Price" class="text-bg-warning"></span>
-    <br />
-    
-    <label asp-for="Description"></label>
-    <input asp-for="Description"/>
-    <br>
-    
-    <input type="submit" value="Update Product" />
-</form>
+<div class="row">
+    <h1>@Model.Name</h1>
+    <p>Price: <span class="badge text-bg--info">@Model.Price</span></p>
+    <p>@Model.Description</p>
+</div>

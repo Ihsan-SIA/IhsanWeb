@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IhsanWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37cb0f701f6cc5f0eade980036de7521c5569d82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a279ac262ba221f41ce3a1a4f7cdcdc31cfd1fee")]
 [assembly: System.Reflection.AssemblyProductAttribute("IhsanWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IhsanWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

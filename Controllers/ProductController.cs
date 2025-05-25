@@ -40,7 +40,7 @@ namespace IhsanWeb.Controllers
             return View();
         }
         public ActionResult Detail(int id)
-        
+        {
             var products = _productRepository.GetById(id);
             return View(products);
         }

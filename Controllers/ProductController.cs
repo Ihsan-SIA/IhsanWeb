@@ -31,7 +31,7 @@ namespace IhsanWeb.Controllers
             {
                 ViewBag.ErrorMessage = "Product already exists!";
                 return View();
-            }
+            
             if (ModelState.IsValid)
             {
                 _productRepository.Create(viewModel);

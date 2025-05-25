@@ -53,7 +53,7 @@ namespace IhsanWeb.Controllers
             if (ModelState.IsValid)
             {
                 _productRepository.Update(viewModel);
-                return Redirect("Index")
+                return Redirect("Index");
             }
             return View(viewModel);
         }

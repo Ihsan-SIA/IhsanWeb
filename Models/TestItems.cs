@@ -1,6 +1,6 @@
 ﻿namespace IhsanWeb.Models
 {
-    public class TestItemsModel
+    public class TestItems
     {
         public int Id { get; set; }
         public string TestName { get; set; } = string.Empty;

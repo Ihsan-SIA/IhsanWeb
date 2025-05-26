@@ -41,7 +41,7 @@ namespace IhsanWeb.Controllers
         }
         public ActionResult Detail(int id)
         {
-            var products = _productRepository.GetById(id);
+            var products = _productRepository.GetById(id)
             return View(products);
         }
 

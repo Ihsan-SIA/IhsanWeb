@@ -21,7 +21,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        var products = new ProductModel()
+        var products = new Product()
         {
             ID = 5, Name = "Android", Age =200_000, Description = "This is a top competitor with IOS"
         };
@@ -30,7 +30,7 @@ public class HomeController : Controller
     
     public IActionResult About()
     {
-        var product = new ProductModel()
+        var product = new Product()
         {
             ID = 23,
             Name = "Redmi",

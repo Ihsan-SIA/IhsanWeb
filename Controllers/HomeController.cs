@@ -47,7 +47,7 @@ public class HomeController : Controller
     }
     public IActionResult Test()
     {
-        var testItems = new List<TestItemsModel>()
+        var testItems = new List<TestItems>()
             {
                 new() {Id = 1, TestName = "Testing phone mic", TestStatus= "Completed" },
                 new() {Id = 2, TestName = "Testing phone camera", TestStatus= "Completed"},

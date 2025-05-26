@@ -1,4 +1,4 @@
-@model IhsanWeb.Models.ProductModel
+@model IhsanWeb.Models.Product
 @{
     ViewData["Title"] = "About page";
 }
@@ -8,7 +8,7 @@
 <p>Description: @Model.Description</p>
 <p>Use this page to detail your site's privacy policy.</p>
 @if (@Model.ID > 5)
-{
+
     <p>There are over 5 products registered on this page.</p>
 }
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HkhrXH4Z/android-phones.jpg' border='0' alt='android-phones' /></a>

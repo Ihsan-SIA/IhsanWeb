@@ -5,12 +5,12 @@ namespace IhsanWeb.Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly List<ProductModel> _products = [];
+        private readonly List<Product> _products = [];
 
         public void Create(CreateProductViewModel viewModel)
         {
             var productCount = _products.Count != 0 ? _products.Count + 1 : 1;
-            var product = new ProductModel()
+            var product = new Product()
             {
                 ID = productCount,
                 Name = viewModel.Name,
@@ -45,7 +45,7 @@ namespace IhsanWeb.Repository
 
         public ProductViewModel? GetById(int id)
         {
-            ProductModel? product = _products.FirstOrDefault(x => x.ID == id);
+            Product? product = _products.FirstOrDefault(x => x.ID == id);
             
             if (product is null)
             {
@@ -66,7 +66,7 @@ namespace IhsanWeb.Repository
 
         public ProductViewModel? GetByName(string name)
         {
-            ProductModel? product = _products.FirstOrDefault(x => x.Name == name);
+            Product? product = _products.FirstOrDefault(x => x.Name == name);
             
             if (product is null)
             {

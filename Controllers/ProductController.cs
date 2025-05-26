@@ -50,7 +50,7 @@ namespace IhsanWeb.Controllers
         {
             var products = _productRepository.GetByName(viewModel.Name);
             
-            if (ModelState.IsValid)
+            if (ModelState.IsValid
             {
                 _productRepository.Update(viewModel);
                 return Redirect("Index");

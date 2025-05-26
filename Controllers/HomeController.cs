@@ -21,7 +21,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        var products = new Product()
+        var products = new ProductModel()
         {
             ID = 5, Name = "Android", Age =200_000, Description = "This is a top competitor with IOS"
         };
@@ -30,7 +30,7 @@ public class HomeController : Controller
     
     public IActionResult About()
     {
-        var product = new Product()
+        var product = new ProductModel()
         {
             ID = 23,
             Name = "Redmi",
@@ -47,7 +47,7 @@ public class HomeController : Controller
     }
     public IActionResult Test()
     {
-        var testItems = new List<TestItems>()
+        var testItems = new List<TestItemsModel>()
             {
                 new() {Id = 1, TestName = "Testing phone mic", TestStatus= "Completed" },
                 new() {Id = 2, TestName = "Testing phone camera", TestStatus= "Completed"},

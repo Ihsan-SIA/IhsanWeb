@@ -15,7 +15,7 @@ namespace IhsanWeb.Controllers
         public IActionResult Index()
         {
             var product = _productRepository.GetAll();
-            return View(product);
+            return View(product)
         }
 
         public ActionResult Create()

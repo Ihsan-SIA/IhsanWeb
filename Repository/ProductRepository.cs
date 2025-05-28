@@ -9,7 +9,7 @@ namespace IhsanWeb.Repository
 
         public void Create(CreateProductViewModel createProduct)
         {
-            var productCount = _products.FirstOrDefault(x => x.Name == createProduct)
+            var productCount = _products.FirstOrDefault(x => x.Name == createProduct.Name);
         }
         public void Create(CreateProductViewModel viewModel)
         {

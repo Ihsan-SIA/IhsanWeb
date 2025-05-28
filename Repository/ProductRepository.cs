@@ -19,18 +19,6 @@ namespace IhsanWeb.Repository
             };
             _products.Add(product);
         }
-        public void Create(CreateProductViewModel viewModel)
-        {
-            var productCount = _products.Count != 0 ? _products.Count + 1 : 1;
-            var product = new Product()
-            {
-                ID = productCount,
-                Name = viewModel.Name,
-                Price = viewModel.Price,
-                Description = viewModel.Description ?? "Not available"
-            };
-            _products.Add(product);
-        }
 
         public void Update(UpdateProductViewModel viewModel)
         {

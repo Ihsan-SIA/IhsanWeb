@@ -7,10 +7,15 @@ namespace IhsanWeb.Repository
     {
         private readonly List<Product> _products = [];
 
-        public void Create(CreateProductViewModel createProduct)
+        public void Create(CreateProductViewModel createModel)
         {
             var productCount = _products.Count != 0 ? _products.Count + 1 : 1;
-            
+            var product = new Product()
+            {
+                Name = createModel.Name,
+                Description = createModel.Description,
+                Price = createModel.Price,
+            };
         }
         public void Create(CreateProductViewModel viewModel)
         {

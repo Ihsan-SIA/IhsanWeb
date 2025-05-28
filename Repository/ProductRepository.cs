@@ -1,4 +1,5 @@
-﻿using IhsanWeb.Models;
+﻿using AspNetCoreGeneratedDocument;
+using IhsanWeb.Models;
 using IhsanWeb.ViewModel;
 
 namespace IhsanWeb.Repository
@@ -16,6 +17,7 @@ namespace IhsanWeb.Repository
                 Description = createModel.Description,
                 Price = createModel.Price,
             };
+            _products.Add(product);
         }
         public void Create(CreateProductViewModel viewModel)
         {

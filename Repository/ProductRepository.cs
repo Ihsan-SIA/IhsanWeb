@@ -7,6 +7,10 @@ namespace IhsanWeb.Repository
     {
         private readonly List<Product> _products = [];
 
+        public void Create(CreateProductViewModel createProduct)
+        {
+            var productCount = _products.FirstOrDefault(x => x.Name == createProduct)
+        }
         public void Create(CreateProductViewModel viewModel)
         {
             var productCount = _products.Count != 0 ? _products.Count + 1 : 1;

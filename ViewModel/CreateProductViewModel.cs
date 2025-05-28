@@ -4,7 +4,7 @@ namespace IhsanWeb.ViewModel
 {
     public class CreateProductViewModel
     {
-        [Required (ErrorMessage = "Awfar relax o ")]
+        [Required (ErrorMessage = "Awfar relax o! At least add product name na.... ")]
         public string Name { get; set; } = string.Empty;
         [Required(ErrorMessage = "Awfar relax o! Write product name joor")]
         public string Name { get; set; } = string.Empty;

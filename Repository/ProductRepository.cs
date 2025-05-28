@@ -6,6 +6,7 @@ namespace IhsanWeb.Repository
     public class ProductRepository : IProductRepository
     {
         private readonly List<Product> _products = [];
+        private readonly List<Product> _products = [];
 
         public void Create(CreateProductViewModel viewModel)
         {

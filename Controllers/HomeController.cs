@@ -23,7 +23,7 @@ public class HomeController : Controller
     {
         var products = new Product()
         {
-            ID = 5, Name = "Android", Age =200_000, Description = "This is a top competitor with IOS"
+            ID = 5, Name = "Android", Description = "This is a top competitor with IOS"
         };
         return View(products);
     }

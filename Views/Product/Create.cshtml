@@ -9,14 +9,14 @@
 {
     <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
 }
-<form action="" method="post">
+<form asp-action="" method="post">
     <label asp-for="Name"></label>
     <input asp-for="Name">
     <span asp-validation-for="Name" class="text-bg-warning"></span>
-    <br /
+    <br />
 
     <label asp-for="Price"></label>
-    <input asp-for ="Price"/>
+    <input type="number" step=".01" asp-for ="Price"/>
     <span asp-validation-for="Price" class="text-bg-warning"></span>
     <br />
     
@@ -24,5 +24,5 @@
     <input asp-for="Description"/>
     <br>
     
-    <input type="submit" value="Create Product" />
+    <input type="submit" value="Create" />
 </form>

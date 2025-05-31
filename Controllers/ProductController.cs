@@ -43,7 +43,7 @@ namespace IhsanWeb.Controllers
         {
             var products = _productRepository.GetById(id);
             return View(products);
-        }
+        
 
         [HttpPut]
         public ActionResult Update(UpdateProductViewModel viewModel)

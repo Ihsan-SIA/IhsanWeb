@@ -30,7 +30,6 @@ namespace IhsanWeb.Repository
             existingProduct.Name = updateModel.Name;
             existingProduct.Description = updateModel.Description ?? existingProduct.Description;
             existingProduct.Price = updateModel.Price ?? existingProduct.Price;
-
         }
         
         public List<ProductViewModel>? GetAll()

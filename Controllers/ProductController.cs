@@ -1,6 +1,7 @@
 ﻿using IhsanWeb.Models;
 using IhsanWeb.Repository;
 using IhsanWeb.ViewModel;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IhsanWeb.Controllers
@@ -31,6 +32,7 @@ namespace IhsanWeb.Controllers
             if (product is not null)
             {
                 ViewBag.ErrorMessage = "Product already exists!";
+                TempData["ErrorMessage"] = "Sorry, an error occurred";
                 return View();
             }
             if (ModelState.IsValid)

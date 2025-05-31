@@ -13,8 +13,9 @@ namespace IhsanWeb.Repository
             var productCount = _products.Count != 0 ? _products.Count + 1 : 1;
             var product = new Product()
             {
+                ID = productCount,
                 Name = createModel.Name,
-                Description = createModel.Description,
+                Description = createModel.Description ?? "No description",
                 Price = createModel.Price,
             };
             _products.Add(product);
@@ -31,44 +32,40 @@ namespace IhsanWeb.Repository
             existingProduct.Description = updateModel.Description ?? existingProduct.Description;
             existingProduct.Price = updateModel.Price ?? existingProduct.Price;
         }
-        
+
         public List<ProductViewModel>? GetAll()
         {
             return _products
-                .Select(x => new ProductViewModel{
+                .Select(x => new ProductViewModel()
+                {
                     Id = x.ID,
                     Name = x.Name,
-                    Price = $"${x.Price:F2}",
-                    Description = x.Description ?? "Not available"
-                })
-                .ToList();
+                    Description = x.Description,
+                    Price = $"${x.Price:F2}"
+                }).ToList();
         }
 
         public ProductViewModel? GetById(int id)
         {
-            Product? product = _products.FirstOrDefault(x => x.ID == id);
-            
+            var product = _products.FirstOrDefault(x => x.ID == id);
             if (product is null)
             {
                 return null;
             }
-
-            var model = new ProductViewModel
+            var model = new ProductViewModel()
             {
                 Id = product.ID,
                 Name = product.Name,
-                Price = $"${product.Price:F2}",
-                Description = product.Description ?? "Not available"
+                Description = product.Description,
+                Price = $"${product.Price:F2}"
             };
-
             return model;
-
         }
 
         public ProductViewModel? GetByName(string name)
         {
             Product? product = _products.FirstOrDefault(x => x.Name == name);
-            
+
             if (product is null)
             {
                 return null;

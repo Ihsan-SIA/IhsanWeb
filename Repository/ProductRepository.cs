@@ -28,19 +28,11 @@ namespace IhsanWeb.Repository
                 return;
             }
             existingProduct.Name = updateModel.Name;
+            existingProduct.Description = updateModel.Description ?? existingProduct.Description;
+            existingProduct.Price = updateModel.Price ?? existingProduct.Price;
 
         }
-        public void Update(UpdateProductViewModel viewModel)
-        {
-            var product = _products.FirstOrDefault(x => x.Name == viewModel.Name);
-            if (product is null)
-            {
-                return;
-            }
-            product.Name = viewModel.Name;
-            product.Price = viewModel.Price ?? product.Price;
-            product.Description = viewModel.Description ?? product.Description;
-        }
+        
         public List<ProductViewModel>? GetAll()
         {
             return _products

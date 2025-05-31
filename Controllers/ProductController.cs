@@ -32,7 +32,7 @@ namespace IhsanWeb.Controllers
             if (product is not null)
             {
                 ViewBag.ErrorMessage = "Product already exists!";
-                TempData["ErrorMessage"] = "Sorry, an error occurred";
+                //TempData["ErrorMessage"] = "Sorry, an error occurred";
                 return View();
             }
             if (ModelState.IsValid)

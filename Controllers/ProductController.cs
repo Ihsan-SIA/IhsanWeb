@@ -15,7 +15,8 @@ namespace IhsanWeb.Controllers
         }
 
         public IActionResult Index()
-        {
+        
+            Console.WriteLine("Nooooo");
             var product = _productRepository.GetAll();
             return View(product);
         }

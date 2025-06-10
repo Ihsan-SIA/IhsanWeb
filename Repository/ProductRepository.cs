@@ -46,7 +46,7 @@ namespace IhsanWeb.Repository
         }
 
         public ProductViewModel? GetById(int id)
-        
+        {
             var product = _products.FirstOrDefault(x => x.ID == id);
             if (product is null)
             {
